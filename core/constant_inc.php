@@ -89,7 +89,7 @@ define( 'WONT_FIX', 90 );
 
 # priority
 define( 'NONE', 10 );
-define( 'LOW', 20 );
+//define( 'LOW', 20 );
 define( 'NORMAL', 30 );
 define( 'HIGH', 40 );
 define( 'URGENT', 50 );

@@ -69,12 +69,12 @@ define( 'DEFAULT_ACCESS_LEVEL', -1 );
 define( 'NEW_', 10 );
 
 # NEW seems to be a reserved keyword
-define( 'FEEDBACK', 20 );
-define( 'ACKNOWLEDGED', 30 );
-define( 'CONFIRMED', 40 );
-define( 'ASSIGNED', 50 );
-define( 'RESOLVED', 80 );
-define( 'CLOSED', 90 );
+define( 'WAITFIX', 20 );
+define( 'PROCESSING', 30 );
+define( 'RESOLVED', 40 );
+define( 'KEEPWATCH', 50 );
+//define( 'RESOLVED', 80 );
+//define( 'CLOSED', 90 );
 
 # resolution
 define( 'OPEN', 10 );

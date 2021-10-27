@@ -3024,12 +3024,11 @@ $g_set_configuration_threshold = ADMINISTRATOR;
  * @global array $g_status_colors
  */
 $g_status_colors = array(
-	'new'          => '#fcbdbd', # red    (scarlet red #ef2929)
-	'feedback'     => '#e3b7eb', # purple (plum        #75507b)
-	'acknowledged' => '#ffcd85', # orange (orango      #f57900)
-	'confirmed'    => '#fff494', # yellow (butter      #fce94f)
-	'assigned'     => '#c2dfff', # blue   (sky blue    #729fcf)
-	'resolved'     => '#d2f5b0', # green  (chameleon   #8ae234)
+	'new'          => '#fcbdbd', # pink
+	'waitfix'      => '#ff0000', # red
+	'processing'   => '#ffe50b', # yellow
+	'resolved'     => '#9fff0b', # green
+	'keepwatch'    => '#e3b7eb', # purple
 	'closed'       => '#c9ccc4'  # grey   (aluminum    #babdb6)
 );
 
@@ -3228,7 +3227,7 @@ $g_reproducibility_enum_string = '10:continuous,30:sometimes,50:cantfoundagain,9
  *
  * @global string $g_status_enum_string
  */
-$g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,90:closed';
+$g_status_enum_string = '10:new,20:waitfix,30:processing,40:resolved,50:keepwatch,90:closed';
 
 /**
  * @@@ for documentation, the values in this list are also used to define

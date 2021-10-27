@@ -96,14 +96,14 @@ define( 'URGENT', 50 );
 define( 'IMMEDIATE', 60 );
 
 # severity
-define( 'FEATURE', 10 );
-define( 'TRIVIAL', 20 );
-define( 'TEXT', 30 );
-define( 'TWEAK', 40 );
-define( 'MINOR', 50 );
-define( 'MAJOR', 60 );
-define( 'CRASH', 70 );
-define( 'BLOCK', 80 );
+define( 'ABUG', 10 );
+define( 'BBUG', 20 );
+define( 'CBUG', 30 );
+//define( 'TWEAK', 40 );
+//define( 'MINOR', 50 );
+//define( 'MAJOR', 60 );
+//define( 'CRASH', 70 );
+define( 'NONE', 80 );
 
 # reproducibility
 define( 'REPRODUCIBILITY_CONTINUOUS', 10 );

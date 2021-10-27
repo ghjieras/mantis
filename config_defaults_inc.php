@@ -3222,7 +3222,7 @@ $g_severity_enum_string = '10:feature,20:trivial,30:text,40:tweak,50:minor,60:ma
  *
  * @global string $g_reproducibility_enum_string
  */
-$g_reproducibility_enum_string = '10:always,30:sometimes,50:random,70:have not tried,90:unable to duplicate,100:N/A';
+$g_reproducibility_enum_string = '10:continuous,30:sometimes,50:cantfoundagain,90:oldbig,100:N/A';
 
 /**
  *

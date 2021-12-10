@@ -37,12 +37,12 @@
 # --- Database Configuration ---
 $g_hostname      = 'localhost';
 $g_db_username   = 'root';
-$g_db_password   = 'ru8tz#67';
+$g_db_password   = '1qaz@WSX';
 $g_database_name = 'bugtracker';
 $g_db_type       = 'mysqli';
 
 # --- Security ---
-$g_crypto_master_salt = '+qksKFZNVkbe0WoGcktACR8X60YcRh4JZ+ZjyxT/7wE=';	#  Random string of at least 16 chars, unique to the installation
+$g_crypto_master_salt = 'K+merUVJM7CD3wnVr4+0vyI/Ox7WYORwnk34+jqomHk=';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
 $g_allow_signup				= ON;
@@ -65,7 +65,7 @@ $g_return_path_email    = 'admin@example.com';	# the return address for bounced 
 # $g_allow_file_upload	= ON;
 # $g_file_upload_method	= DATABASE; # or DISK
 # $g_absolute_path_default_upload_folder = ''; # used with DISK, must contain trailing \ or /.
-# $g_max_file_size		= 5000000;	# in bytes
+ $g_max_file_size		= 1354217728;	# in bytes
 # $g_preview_attachments_inline_max_size = 256 * 1024;
 # $g_allowed_files		= '';		# extensions comma separated, e.g. 'php,html,java,exe,pl'
 # $g_disallowed_files		= '';		# extensions comma separated

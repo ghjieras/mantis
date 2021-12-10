@@ -1187,7 +1187,7 @@ $g_datetime_picker_format = 'Y-MM-DD HH:mm';
  *
  * @global string $g_default_timezone
  */
-$g_default_timezone = '';
+$g_default_timezone = 'Asia/Taipei';
 
 ##########################
 # MantisBT News Settings #
@@ -1702,7 +1702,7 @@ $g_allow_file_upload = ON;
  * DISK or DATABASE. FTP is now deprecated and will map to DISK.
  * @global integer $g_file_upload_method
  */
-$g_file_upload_method = DATABASE;
+$g_file_upload_method = DISK;
 
 /**
  * Use File dropzone: enable drag and drop into a drop zone functionality for
@@ -1763,7 +1763,7 @@ $g_document_files_prefix = 'doc';
  * absolute path to the default upload folder.  Requires trailing / or \
  * @global string $g_absolute_path_default_upload_folder
  */
-$g_absolute_path_default_upload_folder = '';
+$g_absolute_path_default_upload_folder = '/mantis/upload/';
 
 /**
  * Enable support for sending files to users via a more efficient X-Sendfile
